@@ -45,6 +45,8 @@ object Asserts extends FlatSpec with Matchers with org.scalaexercises.definition
    */
   def scalaTestAsserts(res0: Boolean) {
     true should be(res0)
+    
+    /** `should be` is an assertion. It is from ScalaTest, not from the Scala language. */
   }
 
   /** Booleans in asserts can test equality:
@@ -53,7 +55,7 @@ object Asserts extends FlatSpec with Matchers with org.scalaexercises.definition
     val v1 = 4
     v1 shouldEqual res0
 
-    /** `shouldEqual` is an assertion. It is from ScalaTest, not from the Scala language. */
+    /** `shouldEqual` is an assertion. It is from ScalaTest as well. */
   }
 
   /** Sometimes we expect you to fill in the values:
